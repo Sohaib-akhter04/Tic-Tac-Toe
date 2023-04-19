@@ -16,7 +16,9 @@ nav{
 
 
 }
-
+.info{
+    font-size: 25px;
+}
 nav ul{
     list-style-type: none;
 }
@@ -46,8 +48,9 @@ nav ul{
     padding:0 34px;
     font-family: 'Baloo bhaina 2',cursive;
 }
-.imgBox{
-    display: none;
+.imgBox img{
+    width:0;
+    transition: width 1s ease-in-out;
 }
 .br-0{
     border-right: 0;
@@ -60,4 +63,18 @@ nav ul{
 }
 .bt-0{
     border-top: 0;
+}
+
+#reset{
+    margin: 0 23px;
+    padding:6px 14px;
+    background: #e5c7e5;
+    border-radius: 6px;
+    cursor:pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.heading{
+    padding:40%;
 }
