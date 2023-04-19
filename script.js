@@ -58,3 +58,12 @@ Array.from(boxes).forEach(element =>{
     })
 })
 
+
+// add on click listener to resert button
+reset.addEventListener('click',()=>{
+    let boxtext=document.querySelectorAll('.boxtext');
+    Array.from(boxtext).forEach(element=>{
+        element.innerText=''
+    })
+})
+
