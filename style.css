@@ -4,7 +4,7 @@
     padding:0;
 }
 nav{
-    background-color: darkmagenta;
+    background-color: rgb(214, 63, 214);
     color:white;
     height:65px;
     font-size: 27px;
@@ -17,7 +17,7 @@ nav{
 
 }
 body{
-    background-color: rgb(254, 213, 255);
+    background-color: rgb(241, 223, 243);
 }
 .info{
     font-size: 25px;
@@ -46,7 +46,7 @@ nav ul{
     align-items: center;
 }
 .box:hover{
-    background-color: rgb(217,180,252);
+    background-color: rgb(243, 216, 243);
 }
 .gameInfo{
     padding:0 34px;
@@ -75,7 +75,7 @@ nav ul{
 #reset{
     margin: 0 23px;
     padding:6px 14px;
-    background: #e7d9e7;
+    background: #f0c2f0;
     border-radius: 6px;
     cursor:pointer;
     font-family: 'Roboto', sans-serif;
